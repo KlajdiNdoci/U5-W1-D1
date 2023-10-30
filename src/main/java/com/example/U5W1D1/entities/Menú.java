@@ -8,6 +8,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public abstract class Menú {
-    private String calorie;
+    private String nome;
+    private int calorie;
     private double prezzo;
 }

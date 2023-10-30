@@ -5,10 +5,9 @@ import lombok.ToString;
 
 @Getter
 @ToString
-public class Pizza extends Menú {
+public class Topping extends Menú {
 
-
-    public Pizza(String nome, int calorie, double prezzo) {
+    public Topping(String nome, int calorie, double prezzo) {
         super(nome, calorie, prezzo);
     }
 }

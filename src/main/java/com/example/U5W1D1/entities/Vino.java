@@ -9,8 +9,8 @@ public class Vino extends Bevanda {
     private final double alcol;
 
 
-    public Vino(String calorie, double prezzo) {
-        super(calorie, prezzo);
+    public Vino(String nome, int calorie, double prezzo) {
+        super(nome, calorie, prezzo);
         this.alcol = 13;
     }
 }
