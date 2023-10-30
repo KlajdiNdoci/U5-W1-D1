@@ -8,7 +8,7 @@ import lombok.ToString;
 public class Bevanda extends Menú {
     private double litri;
 
-    public Bevanda(String nome, int calorie, double prezzo) {
+    public Bevanda(String nome, int calorie, double prezzo, double litri) {
         super(nome, calorie, prezzo);
     }
 }
